@@ -13,7 +13,7 @@ example usage to sync everything in the workspace folder:
           REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
           REMOTE_PATH: ${{ secrets.REMOTE_PATH }}
           FOLDER: "./"
-          EXCLUDE_FILES: "./.github/workflows/exclude.txt"
+          EXCLUDE_LIST: "./.github/workflows/exclude.txt"
 ```
 
 If you only want to sync a specific subfolder you can put that folder in the folder env var instead
