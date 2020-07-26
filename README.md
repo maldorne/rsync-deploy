@@ -2,9 +2,9 @@
 
 Deploy to a remote server using rsync.
 
-example usage to sync everything in the workspace folder:
+Example usage to sync everything in the workspace folder:
 ```
-- name: deploy to server
+- name: Deploy to server
         uses: houseofmaldorne/rsync-deploy@v2.0
         env:
           DEPLOY_KEY: ${{ secrets.REMOTE_SSH_KEY }}
