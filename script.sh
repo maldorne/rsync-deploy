@@ -8,7 +8,7 @@ chmod 600 "$SSHPATH/key"
 
 # file with a list of files/folders which are NOT to be rsync'd
 EXCLUDE_FILE="$HOME/exclude.txt"
-cat "$EXCLUDE_FILES" >> "$HOME/exclude.txt"
+cat "$GITHUB_WORKSPACE/$EXCLUDE_FILE" >> "$HOME/exclude.txt"
 
 DEPLOY_STRING="$REMOTE_USER@$REMOTE_SERVER:$REMOTE_PATH"
 
