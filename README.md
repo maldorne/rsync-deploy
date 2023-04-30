@@ -3,6 +3,7 @@
 Deploy to a remote server using rsync.
 
 Example usage to sync everything in the workspace folder:
+
 ```
 - name: Deploy to server
   uses: houseofmaldorne/rsync-deploy@v2.0
