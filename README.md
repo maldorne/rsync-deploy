@@ -6,7 +6,7 @@ Example usage to sync everything in the workspace folder:
 
 ```
 - name: Deploy to server
-  uses: houseofmaldorne/rsync-deploy@v2.0
+  uses: maldorne/rsync-deploy@v2.0
   env:
     DEPLOY_KEY: ${{ secrets.REMOTE_SSH_KEY }}
     REMOTE_USER: ${{ secrets.REMOTE_USER }}
